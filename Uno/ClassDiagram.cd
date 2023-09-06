@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Card">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAgAgAAAAAABAAQAAAAAAgAAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorSwitch">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Card" FixedFromPoint="true">
+      <Path>
+        <Point X="6.438" Y="3.142" />
+        <Point X="6.438" Y="3.308" />
+        <Point X="5.75" Y="3.308" />
+        <Point X="5.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAgAAAACABAAQAAAAAAgAAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>colorswitch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorSwitchPlusFour">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Card" FixedFromPoint="true">
+      <Path>
+        <Point X="7.062" Y="3.142" />
+        <Point X="7.062" Y="3.302" />
+        <Point X="8" Y="3.302" />
+        <Point X="8" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAgAAAAAABAAQAAAAAAgCAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>colorswitchplusfour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawTwo">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="Card" FixedFromPoint="true">
+      <Path>
+        <Point X="6" Y="1.5" />
+        <Point X="1.25" Y="1.5" />
+        <Point X="1.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAgAAAAAABAAQAAAAAAgAAACAAAAAAAABQAg=</HashCode>
+      <FileName>drawtwo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgIgAERAAAIBAABAAAAgAAAAgiABAEAABAAQAAAABI=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Miss">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="Card" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="2.188" />
+        <Point X="10.25" Y="2.188" />
+        <Point X="10.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAACAAAgAAAAAABIAQAAAAAAgAAACAAAAAAAAAQAg=</HashCode>
+      <FileName>miss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Normal">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAAgAAQAAABAAQAAAAAAgIAACAAAAAAAAAQAg=</HashCode>
+      <FileName>normal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAABAAAAAACAgACAAAAAAEAEAAAAAAAQAAABA=</HashCode>
+      <FileName>player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reverse">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="Card" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="1.188" />
+        <Point X="12.5" Y="1.188" />
+        <Point X="12.5" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAgAAAAAABAAQAAAAAAgAAACAAIACAAAAQAg=</HashCode>
+      <FileName>reverse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
