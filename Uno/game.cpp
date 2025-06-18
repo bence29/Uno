@@ -239,7 +239,11 @@ void Game::gameplay() {
 		else
 			currentP->Prev->displayName();
 		cout << endl;
-		cout << "Kartyainak szama: " << currentP->Next->cardnumber() << endl << endl;
+		cout << "Kartyainak szama: ";
+		if (order)
+			cout << currentP->Next->cardnumber() << endl << endl;
+		else
+			cout << currentP->Prev->cardnumber() << endl << endl;
 		cout << "Melyik kartyat szeretned kijatszani?	(a kartya szamat ird le, vagy ha huzni akarsz, irj ervenytelen szamot.)" << endl;
 		playCard();
 	} while (GameOver==false);
